@@ -464,9 +464,9 @@
     numeral.register = function(type, name, format) {
         name = name.toLowerCase();
 
-        if (this[type + 's'][name]) {
-            throw new TypeError(name + ' ' + type + ' already registered.');
-        }
+//         if (this[type + 's'][name]) {
+//             throw new TypeError(name + ' ' + type + ' already registered.');
+//         }
 
         this[type + 's'][name] = format;
 
